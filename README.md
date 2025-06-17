@@ -19,4 +19,4 @@ Tiqué is a simple and functional Todo List application built with HTML, CSS, an
 ### 1. Clone the repository or download the files:
 
 ```bash
-git clone https://github.com/yourusername/dō-todo-app.git
+git clone https://github.com/Abdurahman-Abdella/Zentry-tique.git
