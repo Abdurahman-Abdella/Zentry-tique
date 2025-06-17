@@ -1,7 +1,4 @@
-const todoList = [
-  { name: 'make dishes', dueDate: '2022-12-22', done: false },
-  { name: 'watch anime', dueDate: '2022-12-22', done: false }
-];
+const todoList = [];
 
 renderTodoList();
 
