@@ -19,11 +19,12 @@
     <h1>Todo-List</h1>
     <div class="todo-input-grid">
       <div class="input-field">
-        <input type="text" required class="js-name-input name-input" spellcheck="false">
+        <input type="text" required class="js-name-input name-input" spellcheck="false" onkeydown="
+  handleCostKeydown(event);">
         <label>Todo name</label>
       </div>
       <div class="input-field">
-        <input type="date" required class="js-input-date date-input">
+        <input type="date" required class="js-input-date date-input" onkeydown="handleCostKeydown(event);">
         
       </div>
       <button onclick="addTodo();" class="add-todo-button">Add</button>

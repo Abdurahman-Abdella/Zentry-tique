@@ -22,6 +22,12 @@ function renderTodoList() {
   document.querySelector('.js-todo-list').innerHTML = todoListHtml;
 }
 
+function handleCostKeydown(event){
+  if(event.key === 'Enter'){
+    addTodo();
+  }
+}
+
 function addTodo() {
   const inputElement = document.querySelector('.js-name-input');
   const dateInputElement = document.querySelector('.js-input-date');
