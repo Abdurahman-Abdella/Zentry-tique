@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo-placeholder">
+      <!-- You can place your logo here -->
+      <img src="svg/checklist-svgrepo-com.svg" alt="Logo" class="logo-img">
+    </div>
+    <span class="nav-title">Tiqué</span>
+  </nav>
+  <div class="container">
+    <h1>Todo-List</h1>
+    <div class="todo-input-grid">
+      <div class="input-field">
+        <input type="text" required class="js-name-input name-input" spellcheck="false">
+        <label>Todo name</label>
+      </div>
+      <div class="input-field">
+        <input type="date" required class="js-input-date date-input">
+        
+      </div>
+      <button onclick="addTodo();" class="add-todo-button">Add</button>
+    </div>
+
+    <div class="js-todo-list todo-grid"></div>
+  </div>
+
+  <script src="config.js"></script>
+</body>
+</html>
