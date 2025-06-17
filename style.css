@@ -211,9 +211,7 @@ input:valid ~ label {
   h1 {
     font-size: 1.6em;
   }
-h1 img{
-  height: 35px;
-}
+
   .container {
     padding: 20px;
   }
