@@ -116,9 +116,9 @@ input:valid ~ label {
 }
 
 .delete-todo-button {
-  background-color:#fff;
+  background-color:#1f1c2c;
   border: none;
-  color: #1f1c2c;
+  color: #fff;
   border-radius: 8px;
   cursor: pointer;
   padding: 10px 0;
@@ -127,8 +127,8 @@ input:valid ~ label {
 
 }
 .delete-todo-button:hover {
-  background-color:  transparent;
-  color: #fff;
+  background-color:  #fff;
+  color:#1f1c2c;
 }
 
 .navbar {
