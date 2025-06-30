@@ -14,7 +14,7 @@ function renderTodoList() {
         <span class="todo-text">${name}</span>
       </div>
       <div class="todo-date">${dueDate}</div>
-      <button onclick="deleteTodo(${index})" class="delete-todo-button">Delete</button>
+      <button onclick="deleteTodo(${index})" class="delete-todo-button js-delete-todo-button">Delete</button>
     `;
     todoListHtml += html;
   });
@@ -22,11 +22,16 @@ function renderTodoList() {
   document.querySelector('.js-todo-list').innerHTML = todoListHtml;
 }
 
+
 function handleCostKeydown(event){
   if(event.key === 'Enter'){
     addTodo();
   }
 }
+
+document.querySelector('.js-add-todo-button').addEventListener('click', () => {
+  addTodo();
+})
 
 function addTodo() {
   const inputElement = document.querySelector('.js-name-input');
